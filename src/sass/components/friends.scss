@@ -1,0 +1,81 @@
+// start Friends
+.mains-friends{
+    padding: 75px 0 !important;
+}
+.friends{
+    background-color: #fff;
+    .ri-settings-5-fill{
+        font-size: $main-font-size !important;
+        width:40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius:50px;
+        text-align: center;
+        background-color: $bg-main-color;
+    }
+    &__menus{
+        .ri-arrow-right-s-line{
+            font-size: $main-font-size !important;
+        }
+       
+        .home{
+            border-radius: $border;
+            background-color: $bg-main-color ;
+            position: relative;
+        .ri-group-fill{
+            font-size: $main-font-size !important;
+            // color:$bg-alt-color;
+            width:35px;
+            height: 35px;
+            line-height: 35px;
+            border-radius:50px;
+            text-align: center;
+            background-color:$logo-main-color ;
+            position: absolute;
+            content: "";
+            left: 10px;
+        }
+        h6{
+            padding-left: 52px;
+            margin-top: 5px;
+        }
+
+        }
+        .request{
+            background: #fff;
+            .ri-user-fill{
+                font-size: $main-font-size !important;
+                // color:$bg-alt-color;
+                width:35px;
+                height: 35px;
+                line-height: 35px;
+                border-radius:50px;
+                text-align: center;
+                background-color:$bg-main-color ;
+                position: absolute;
+                content: "";
+                left: 22px;
+            }
+            h6{
+                padding-left: 52px;
+                margin-top: 5px;
+            } 
+            .ri-user-add-fill{
+                font-size: $main-font-size !important;
+                // color:$bg-alt-color;
+                width:35px;
+                height: 35px;
+                line-height: 35px;
+                border-radius:50px;
+                text-align: center;
+                background-color:$bg-main-color ;
+                position: absolute;
+                content: "";
+                left: 22px;
+            }
+        }
+    }
+}
+    
+// End Friends
+

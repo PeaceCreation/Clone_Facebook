@@ -1,0 +1,113 @@
+// Import files
+@import './config/colors.scss';
+@import './config/variables.scss';
+@import './vendors/global-rules.scss';
+@import './components/login.scss';
+@import './components/friends.scss';
+@import './base/mixins.scss';
+
+
+// 
+//  @font-face{
+//     font-family: Fonts;
+//     src: '../fonts/static/ElMessiri-Bold.ttf';
+//  }
+
+body{
+    background-color: $bg-main-color;
+    
+}
+.main{
+    box-shadow: 1px 1.3px 1.6px 1.8px $shadow-main-color;
+}
+.mains{
+    padding:80px 0 !important;
+}
+.ri-add-circle-fill{
+    border-radius: 50%;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    top: 31%;
+    transform: translateX(-48%); 
+    color:$logo-main-color;
+}
+
+.accounts__account__img{
+    .ri-close-fill{
+        position: absolute;
+        top: -4px;
+        left: 2px;
+        font-size: 30px;
+        color: #fff;
+    }
+}
+.form{
+    height: 300px;
+    background-color:$bg-alt-color;
+    padding:25px 30px;
+    border-radius: $border;
+}
+
+.btn-create{
+    background-color: $btn-alt-color;
+    color:#fff;
+    &:hover{
+        background-color: $btn-alt-color;
+        color:#fff;
+    }
+}
+
+.logo{
+    &__brands{
+        // padding-bottom: 20px;
+        h1{
+            color:$logo-main-color;
+            line-height: 9px;
+            font-weight: 700;
+            padding-bottom: 10px;
+        }
+        p{
+            font-weight: 700;
+        }
+        span{
+            font-weight: 300;
+        }
+    }
+}
+.accounts{
+    position: relative;
+    background-color: $bg-alt-color;
+    width:150px;
+    height: 200px;
+    border-radius: $border;
+    box-shadow: 1px 1.3px 1.7px 1.9px #CBCCCE;
+    &__account{
+        &__img{
+            height: 150px;
+            img{
+                height: 163px;
+                border-top-right-radius: $border;
+                border-top-left-radius:$border;
+                
+            }
+        }
+    }
+}
+.background{
+    background-color: $bg-main-color !important;
+    height: 150px;
+}
+.modal-content{
+    width:70% !important;
+    position: relative;
+    top:70px;
+}
+
+input{
+    border-color: $bg-main-color !important;
+    border:2px solid $bg-main-color;
+    box-shadow: 1px 1px 1px $bg-main-color;
+}
+
+
