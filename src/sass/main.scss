@@ -34,6 +34,7 @@ body{
 }
 
 .accounts__account__img{
+    width:150px;
     .ri-close-fill{
         position: absolute;
         top: -4px;
@@ -89,7 +90,7 @@ body{
                 height: 163px;
                 border-top-right-radius: $border;
                 border-top-left-radius:$border;
-                
+                width:150px;
             }
         }
     }

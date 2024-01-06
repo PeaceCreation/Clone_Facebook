@@ -12,6 +12,7 @@ const singleComment = require('./components/Comments/single-comment');
 const singleSecondComment = require('./components/Comments/single-second-comment');
 const post = require('./components/Comments/posts');
 const postone = require('./components/Comments/postsone');
+const posttwo = require('./components/Comments/posttwo');
 
 
 // Navbar Components
@@ -33,3 +34,4 @@ const arrow = require('./components/LeftSide/arrow');
 const friendSetting = require('./components/FriendSetting/friends');
 const friendRequest = require('./components/FriendSetting/FriendRequest');
 const friendSuggest = require('./components/FriendSetting/FriendSuggest');
+const AllFriends = require('./components/FriendSetting/AllFriends');
